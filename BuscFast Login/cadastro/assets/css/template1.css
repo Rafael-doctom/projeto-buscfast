@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensado', sans-serif;
+}
+body {
+    background-color: #233A66;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+form {
+    background-color: #CCC;
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+}
+.texto{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFF;
+}
+label {
+    font-size: 25px;
+    color: #000;
+    margin: 5px;
+}
+.duas {
+    display: flex;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    margin: 10px 0px 25px 5px;
+}
+.posicao, a{
+    text-align: right;
+    color: #000;
+}
+form p {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #233A66;
+    font-size: 21px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+}
+::placeholder {
+    font-size: 18px;
+}
+
+select {
+    padding: 5px 50px 5px 0px;
+    border-radius: 5px;
+    margin: 5px !important;
+}
+
+.link {
+    text-align: left;
+    padding: 10px 0px 0px 5px;
+    font-size: 14px
+}
+.link a {
+    color: #233A66;
+}

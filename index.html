@@ -1,169 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quando&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
-    <!-- style -->
-    <link rel="stylesheet" href="./CSS/style.css">
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./assets/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <title>BuscFast</title>
-  </head>
-  <body>
-    
-    <!-- header -->
-    <header>
-      <div class="header">
-        <div class="container">
-          <div class="navegacao">
-            <div class="logo">
-              <img src="./assets/logo.png" alt="">
-            </div><!-- logo -->
 
-            <div class="search">
-              <input type="text" id="txtBusca" placeholder="Buscar..."/>
-              <img src="./assets/icons/search.svg" id="btnBusca" alt="Buscar"/>
-            </div><!-- search || busca -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quando&family=Roboto:wght@100;300;500&display=swap"
+    rel="stylesheet">
+  <!-- style -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>BuscFast</title>
+</head>
 
-            <div class="nav-usuario">
-              <ul class="lista">
-                <i><img src="./assets/icons/cart.svg" id="icon-cart"></i>
-                <li class="item">Carrinho</li>
+<body>
 
-                <i><img src="./assets/icons/conta.svg" id="icon-conta"></i>
-                <li class="item">Conta</li>
+  <!-- header -->
+  <header>
+    <div class="header">
+      <div class="container">
+        <div class="navegacao">
+          <div class="logo">
+            <img src="./assets/logo.png" id="logo">
+          </div><!-- logo -->
 
-                <i><img src="./assets/icons/sair.svg" id="icon-sair"></i>
-                <li class="item">Sair</li>
-              </ul><!-- lista -->
-            </div><!-- nav usuario -->
-          </div><!-- navegação -->
-        </div><!-- container -->
+          <form action="" class="form">
+            <div id="search">
+              <input type="text" id="txtBusca" placeholder="Pesquisar..." />
+              <button type="submit">
+                <img src="./assets/icons/search.svg" id="btnBusca" alt="Buscar" />
+              </button>
+            </div><!-- search -->
+          </form>
 
-        <section class="menu">
-          <article class="links">
-            <a href="#">Alugueis de Residencia</a>
-            <a href="#">Restaurante</a>
-            <a href="#">Academias</a>
-            <a href="#">Lojas</a>
-            <a href="#">Noticias</a>
-            <a href="#">Mais...</a>
-          </article><!-- links -->
-        </section><!-- menu -->
-      </div><!-- header -->
 
-      <section class="banner">
-        <div class="banner-rotativo">
-          <img src="./assets/banner-1.jpg" alt="">
-        </div><!-- banner rotativo -->
-      </section><!-- banner -->
-    </header>
-    <!-- fim header -->
-
-    <!-- main  -->
-    <main>
-
-       <div class="saiba-mais">
-         <h2>A BuscFast te ajuda a encontrar produtos e lojas da sua regiao <a href="#">Saiba mais...</a></h2>
-       </div><!-- saiba mais -->
-
-       <section class="ofertas-do-dia" >
-          <article class="container">
-             <div class="titulo-oferta">
-               <h2>Ofertas do dia</h2>
-             </div><!--titulo-oferta-->
-            <div class="boxs">
-               <div class="box box-1">
-                  <img src="./assets/produto-01.jpg" class="img-produto-1">
-                  <h1>Produto 01</h1>
-                  <p>Descrição</p>
-                  <h3>R$ 10,00</h3>
-               </div>
-
-               <div class="box box-2">
-                  <img src="./assets/produto-01.jpg" class="img-produto-2">
-                  <h1>Produto 02</h1>
-                  <p>Descrição</p>
-                  <h3>R$ 10,00</h3>
-               </div>
-
-               <div class="box box-3">
-                  <img src="./assets/produto-01.jpg" class="img-produto-3">
-                  <h1>Produto 03</h1>
-                  <p>Descrição</p>
-                  <h3>R$ 10,00</h3>
-               </div>
-
-               <div class="box box-4">
-                  <img src="./assets/produto-01.jpg" class="img-produto-4">
-                  <h1>Produto 04</h1>
-                  <p>Descrição</p>
-                  <h3>R$ 10,00</h3>
-               </div>
-
-               <div class="box box-1">
-                  <img src="./assets/produto-01.jpg" class="img-produto-1">
-                  <h1>Produto 01</h1>
-                  <p>Descrição</p>
-                  <h3>R$ 10,00</h3>
-               </div>
+          <div class="nav-links">
+            <div class="link linkcarrinho">
+              <a href="#">Carrinho</a>
             </div>
-          </article><!-- boxs -->
-       </section><!-- ofertas do dia -->
 
-       <div class="na-regiao">
-          <h2>NA REGIÃO</h2>
-       </div><!-- na região -->
+            <div class="link linkconta">
+              <a href="#">Entrar</a>
+            </div>
+            
+            <div class="link linksair">
+              <a href="#">Sair</a>
+            </div>
+          </div>  
+        </div><!-- navegação -->
+      </div><!-- container -->
+    </div><!-- header -->
+  </header>
+  <!-- fim header -->
 
-       <section class="anuncios">
-         <article class="banner-principal">
-            <img src="./assets/banner-pizza.jpg" class="img-pizza">
-         </article><!-- banner principal -->
+  <!-- main  -->
+  <main>
+    <div class="menu-nav">
+      <a class="marginlef" href="">Alugueis de Residencia</a>
+      <a class="marginlef" href="">Restaurantes</a>
+      <a class="marginlef" href="">Academias</a>
+      <a class="marginlef" href="">Loja</a>
+      <a class="marginlef" href="">Noticias</a>
+      <a href="">Mais ...</a>
+    </div>
 
-         <article class="container banners-secundarios">
-            <div class="anuncio-1">
-               <img src="./assets/anuncio-1.jpg" class="img-anuncio-1">
-            </div><!-- anuncio 1 -->
+    <section class="banner">
+      <div class="banner-rotativo"></div><!-- banner rotativo -->
+    </section><!-- banner -->
 
-            <div class="anuncio-2">
-               <img src="./assets/anuncio-1.jpg" class="img-anuncio-2">
-            </div><!-- anuncio 2 -->
-         </article><!-- banners-secundario -->
-       </section><!-- section anuncios -->
+    <div class="saiba-mais">
+      <h2>A BuscFast te ajuda a encontrar produtos e lojas da sua regiao <a href="#">Saiba mais...</a></h2>
+    </div><!-- saiba mais -->
 
-    </main>
-    <!-- fim main  -->
-
-    <!-- footer -->
-    <footer>
-       <section class="footer">
-          <div class="text-footer">
-             <h2>FOOTER</h2>
+    <section class="ofertas-do-dia">
+      <article class="container">
+        <div class="titulo-oferta">
+          <h2>Ofertas do dia</h2>
+        </div>
+        <!--titulo-oferta-->
+        <div class="boxs">
+          <div class="box box-1">
+            <img src="./assets/produto-01.jpg" class="img-produto-1">
+            <h1>Produto 01</h1>
+            <p>Descrição</p>
+            <h3>R$ 10,00</h3>
           </div>
-       </section>
-    </footer>
-    <!-- fim footer -->
 
-    <script src="./JS/main.js"></script><!-- script -->
-  </body>
+          <div class="box box-2">
+            <img src="./assets/produto-01.jpg" class="img-produto-2">
+            <h1>Produto 02</h1>
+            <p>Descrição</p>
+            <h3>R$ 10,00</h3>
+          </div>
+
+          <div class="box box-3">
+            <img src="./assets/produto-01.jpg" class="img-produto-3">
+            <h1>Produto 03</h1>
+            <p>Descrição</p>
+            <h3>R$ 10,00</h3>
+          </div>
+
+          <div class="box box-4">
+            <img src="./assets/produto-01.jpg" class="img-produto-4">
+            <h1>Produto 04</h1>
+            <p>Descrição</p>
+            <h3>R$ 10,00</h3>
+          </div>
+
+          <div class="box box-1">
+            <img src="./assets/produto-01.jpg" class="img-produto-1">
+            <h1>Produto 01</h1>
+            <p>Descrição</p>
+            <h3>R$ 10,00</h3>
+          </div>
+        </div>
+      </article><!-- boxs -->
+    </section><!-- ofertas do dia -->
+
+    <div class="na-regiao">
+      <h2>NA REGIÃO</h2>
+    </div><!-- na região -->
+
+    <section class="anuncios">
+      <article class="banner-principal">
+        <img src="./assets/banner-pizza.jpg" class="img-pizza">
+      </article><!-- banner principal -->
+
+      <article class="container banners-secundarios">
+        <div class="anuncio-1">
+          <img src="./assets/anuncio-1.jpg" class="img-anuncio-1">
+        </div><!-- anuncio 1 -->
+
+        <div class="anuncio-2">
+          <img src="./assets/anuncio-1.jpg" class="img-anuncio-2">
+        </div><!-- anuncio 2 -->
+      </article><!-- banners-secundario -->
+    </section><!-- section anuncios -->
+
+  </main>
+  <!-- fim main  -->
+
+  <!-- footer -->
+  <footer>
+    <section class="footer">
+      <div class="text-footer">
+        <h2>FOOTER</h2>
+      </div>
+    </section>
+  </footer>
+  <!-- fim footer -->
+
+  <script src="./JS/main.js"></script><!-- script -->
+</body>
+
 </html>

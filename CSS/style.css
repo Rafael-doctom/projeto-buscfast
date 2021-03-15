@@ -13,3 +13,181 @@
 {
   margin: 0 150px;
 }
+/* Header */
+    /* navegação */
+
+.header
+{
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  width: 100%;
+  border-bottom: 3px solid black;
+  z-index: 999;
+}
+
+.navegacao
+{
+  display: flex;
+  align-items: center;
+}
+
+.logo
+{
+  display: flex;
+  margin-right: 94px;
+}
+
+
+#search{
+  background-color: #E2E2E2;
+  border: none;
+  border-radius: 50px;
+  width:675px;
+  height: 50px;
+  margin-right: 45px;
+}
+
+#txtBusca{
+  float:left;
+  
+  background-color:transparent;
+  padding-left:5px;
+  margin-top: 11px;
+  margin-left: 15px;
+
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #7E7E7E;
+  font-size:20px;
+
+  border:none;
+
+  width:600px;
+  outline: 0;
+}
+
+#search button
+{
+  border: none;
+  background: none;
+  color: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#search img
+{
+  padding-top: 13px;
+  padding-left: 14px;
+}
+
+/* nav link */
+.nav-links
+{
+  line-height: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.nav-links .link a
+{
+  text-decoration: none;
+  color: #6A6A6A;
+}
+
+.nav-links .linkcarrinho,
+.nav-links .linkconta
+{
+  margin-right: 54px;
+}
+
+
+.nav-links .linkcarrinho,
+.nav-links .linkconta,
+.nav-links .linksair
+{
+  float: left;
+}
+
+/* linha nav menu */
+main
+{
+  position: relative;
+  top: 80px;
+}
+
+.menu-nav
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 114px;
+}
+
+.menu-nav a
+{
+  text-decoration: none;
+  color: black;
+  line-height: 63px;
+}
+
+.menu-nav .marginlef
+{
+  margin-right: 124px;
+}
+
+/* banner */
+
+.banner .banner-rotativo
+{
+  width: 100%;
+  height: 393px;
+  background-image: url('../assets/banner-1.jpg');
+  
+}
+
+/* linha saiba mais */
+
+.saiba-mais
+{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.saiba-mais h2
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: black;
+}
+
+.saiba-mais a
+{
+  color: black;
+}
+
+/* box de produtos */
+
+.ofertas-do-dia
+{
+  background-color: #F2F2F2;
+}
+
+.ofertas-do-dia .titulo-oferta h2
+{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 36px 0 20px 0;
+}
+
+
+

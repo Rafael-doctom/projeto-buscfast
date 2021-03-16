@@ -1,19 +1,64 @@
 /* HEADER */
 #header{
     display:flex;
-    justify-content: space-around;
-
-
+    width: 100%;
+    font-size: 1rem;
 }
-
 #header .account-existing a{
-background-color:#233A66
-;
-color:white;
+    background-color:#233A66;
+    color:white;
+    margin-left: 290px;
+    line-height: 80px;
+    padding: 12px 28px;
+    border-radius: 5px
 }
-
 /* CONTENT */
 #content{
+    text-align: center;
+    background-color:#233A66;
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
+}
+.logo{
+    margin: 30px;
+}
+/* FORMULÁRIO */
+.formulario-bg{
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    max-width: 615px;
+    height:50vh;
+
+}
+.form{
+    padding: 2rem;
+}
+.formulario-bg .title-formulario{
+    display:flex;
+    flex-direction: column;
+    /* text-align: left; */
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+.formulario-bg  .title-formulario h2{
+    color:#000000;
+    font-weight: 600;
+
+}
+.formulario-bg   .title-formulario h6{
+    color: #5C5C5C;
+}
+
+
+.account-up{
+    background-color:#233A66;
+    color:white;
+    font-size: 1rem;
+    margin-left: 290px;
+    line-height: 80px;
+    padding: 12px 28px;
+    border-radius: 5px;
+    margin:0 auto;
 }

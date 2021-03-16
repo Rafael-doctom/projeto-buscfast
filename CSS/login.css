@@ -1,0 +1,47 @@
+/* reset */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* topo */
+header > #top
+{
+  width: 100%;
+  background-color: white;
+  margin-left: 290px ;
+  line-height: 80px;
+}
+
+header > #top > a
+{
+  text-decoration: none;
+  background-color: #233A66;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+  padding: 12px 28px;
+  border-radius: 3px;
+}
+
+/* main */
+
+main
+{
+  background: #233A66;
+}
+
+main > .box__logo #logo
+{
+  padding-top: 77px;
+  text-align-last: center;
+}
+
+/* formulario */
+#formulario .form form .inputText
+{
+
+}

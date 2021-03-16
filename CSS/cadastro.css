@@ -1,0 +1,19 @@
+/* HEADER */
+#header{
+    display:flex;
+    justify-content: space-around;
+
+
+}
+
+#header .account-existing a{
+background-color:#233A66
+;
+color:white;
+}
+
+/* CONTENT */
+#content{
+    display:flex;
+    flex-direction:column;
+}
